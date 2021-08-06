@@ -13,3 +13,8 @@
 
 ## html
 #### 1.0 在.eslintrc.js中extends加入'plugin:vue/vue3-recommended'
+
+## 设置别名@
+#### 1.0 yarn add @types/node -D
+#### 2.0 vite.confing.ts 引入path,设置resolve下的alias
+#### 3.0 ts报错，tsconfig.json中加入 "baseUrl":".","paths": {  "@/*":["src/*"]}
